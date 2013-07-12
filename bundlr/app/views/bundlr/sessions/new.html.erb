@@ -1,0 +1,19 @@
+<div class="six columns offset-by-five">
+
+	<div id="signin">
+
+		<%= image_tag "bundlr/shared/logo.png", :class => 'logo' %>
+
+		<h1>Log In</h1>
+
+		<%= form_for(:session, url: sessions_path) do |f| %>
+			<%= f.text_field :email, :input_html => { :value => 'user@domain.com' } %>
+			<%= f.text_field :password %>
+			<%= f.submit "" %>
+		<% end %>
+
+		<%= link_to "I'm new here...", signup_path %>
+
+	</div>
+
+</div>
