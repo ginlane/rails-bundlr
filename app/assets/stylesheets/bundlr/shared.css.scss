@@ -1,0 +1,40 @@
+// COLORS
+
+.green {
+	background-color:#A8D59D;
+
+	&:hover {
+		background-color:red;
+	}
+}
+
+.blue {
+	background-color:#72CDF4;
+}
+
+.orange {
+	background-color:#FDCA90;
+}
+
+.red {
+	background-color:#F37579;
+}
+
+// BODY & MISC
+
+body {
+	background-color:#EFE9E5;
+}
+
+.debug_dump {
+	background-color:#CDCDCD;
+	padding:20px;
+	margin:10px;
+}
+
+// FONTS
+
+@font-face {
+  font-family: 'ProximaNova';    
+  src: url('<%= asset_path('bundlr/ProximaNova/ProximaNova-Regular') %>');
+}

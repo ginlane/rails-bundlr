@@ -1,0 +1,27 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+#home {
+	text-align: center;
+	background-color:white;
+
+	.squareButton {
+		width:50%;
+		height:200px;
+		float:left;
+	}
+
+	.welcome {
+		height: 60px;
+		background-color:white;
+		width:100%;
+		float:left;
+	}
+
+	h1 {
+		font-family: ProximaNova;
+	}
+
+}
